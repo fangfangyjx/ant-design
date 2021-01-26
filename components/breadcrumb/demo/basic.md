@@ -18,14 +18,14 @@ import { Breadcrumb } from 'antd';
 
 ReactDOM.render(
   <Breadcrumb>
-    <Breadcrumb.Item>Home</Breadcrumb.Item>
+    <Breadcrumb.Item>首页</Breadcrumb.Item>
     <Breadcrumb.Item>
-      <a href="">Application Center</a>
+      <a href="">进销存管理</a>
     </Breadcrumb.Item>
     <Breadcrumb.Item>
-      <a href="">Application List</a>
+      <a href="">系统设置</a>
     </Breadcrumb.Item>
-    <Breadcrumb.Item>An Application</Breadcrumb.Item>
+    <Breadcrumb.Item>用户信息</Breadcrumb.Item>
   </Breadcrumb>,
   mountNode,
 );
